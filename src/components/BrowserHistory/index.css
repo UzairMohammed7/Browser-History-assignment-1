@@ -1,0 +1,47 @@
+.browserHistoryContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  background-color: #3367d6;
+  padding: 15px 30px;
+  align-items: center;
+}
+.app-logo {
+  height: 30px;
+}
+.searchContainer {
+  background-color: #2850a7;
+  padding-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.search-icon {
+  border: none;
+}
+.search-bar {
+  background-color: transparent;
+  padding-left: 10px;
+  color: #ececec;
+  font-size: 18px;
+  margin: 10px;
+  width: 400px;
+  height: 35px;
+  border: 0;
+  outline: none;
+}
+
+.noHistory {
+  color: #475569;
+  font-family: 25px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
